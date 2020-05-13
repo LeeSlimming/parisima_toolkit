@@ -1,0 +1,100 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+	<div class="row">
+		<h2>Multiple Select with Search Option - Tiled Layout </h2>
+        <div class="form-group">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <input type="search" class="form-control" id="search" placeholder="Add your options..">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group">
+            <div class="searchable-container">
+                <div class="items col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Coffee</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="items col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Tea</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                  <div class="items col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Tea</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                  <div class="items col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Tea</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="items col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Fruit Juice</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>

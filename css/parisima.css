@@ -1,0 +1,87 @@
+/*
+Theme Name: Parisima
+Author: Lee Slimming
+Description: Parisima CSS to mirror website
+Version: 1.0.0
+*/
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif
+  font-weight: 400;
+  /* font-size: 18px; */
+  line-height: normal;
+  color: #1f3445;
+  overflow-x: hidden;
+  }
+
+  .montserrat { font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
+  .ptsans { font-family: 'PT Sans', Helvetica, Arial, sans-serif; }
+
+.navbar {
+  height: 84px;
+}
+.nav-item{
+  padding:0px 25px 0px 25px;
+}
+
+.breadcrumb{
+  font-size: 10px;
+  background-color: #ffffff;
+}
+.step {
+  list-style: none;
+  margin: .2rem 0;
+  width: 100%;
+}
+
+.step .step-item {
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+  margin-top: 0;
+  min-height: 1rem;
+  position: relative;
+  text-align: center;
+}
+
+.step .step-item:not(:first-child)::before {
+  background: #00b4b5;
+  content: "";
+  height: 2px;
+  left: -50%;
+  position: absolute;
+  top: 9px;
+  width: 100%;
+}
+
+.step .step-item a {
+  color: #acb3c2;
+  display: inline-block;
+  padding: 20px 10px 0;
+  text-decoration: none;
+}
+
+.step .step-item a::before {
+  background: #00b4b5;
+  border: .1rem solid #fff;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: .9rem;
+  left: 50%;
+  position: absolute;
+  top: .2rem;
+  transform: translateX(-50%);
+  width: .9rem;
+  z-index: 1;
+}
+
+.searchable-container{margin:20px 0 0 0}
+.searchable-container label.btn-default.active{background-color:#007ba7;color:#FFF}
+.searchable-container label.btn-default{width:90%;border:1px solid #efefef;margin:5px; box-shadow:0px 0px 0px 0 #ccc;}
+.searchable-container label .bizcontent{width:100%;}
+.searchable-container .btn-group{width:90%}
+.searchable-container .btn span.glyphicon{
+    opacity: 0;
+}
+.searchable-container .btn.active span.glyphicon {
+    opacity: 1;
+}
