@@ -18,9 +18,23 @@ body {
 
 .navbar {
   height: 84px;
+  overflow: hidden;
 }
 .nav-item{
   padding:0px 25px 0px 25px;
+}
+
+
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 15px;
 }
 
 .breadcrumb{
@@ -72,16 +86,4 @@ body {
   transform: translateX(-50%);
   width: .9rem;
   z-index: 1;
-}
-
-.searchable-container{margin:20px 0 0 0}
-.searchable-container label.btn-default.active{background-color:#007ba7;color:#FFF}
-.searchable-container label.btn-default{width:90%;border:1px solid #efefef;margin:5px; box-shadow:0px 0px 0px 0 #ccc;}
-.searchable-container label .bizcontent{width:100%;}
-.searchable-container .btn-group{width:90%}
-.searchable-container .btn span.glyphicon{
-    opacity: 0;
-}
-.searchable-container .btn.active span.glyphicon {
-    opacity: 1;
 }
