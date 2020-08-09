@@ -24,7 +24,7 @@ body {
 @media all and (min-width: 992px) {
   .navbar{ padding-top: 0; padding-bottom: 0; height: 84px;}
   .navbar .has-megamenu{position:static!important;}
-  .navbar .megamenu{left:0; right:0; width:100%; padding:20px; background-color: #1f3445}
+  .navbar .megamenu{left:0; right:0; width:100%; padding:20px; background-color: #354b60}
   .navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
 }
 
@@ -88,7 +88,9 @@ body {
 }
 
 .title{
-  color: #ffffff;
+  color: #00b4b5;
+  border-bottom: .1rem solid #00b4b5;
+  padding-bottom: 10px;
 }
 
 .list-unstyled li a {
